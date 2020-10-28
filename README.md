@@ -15,6 +15,8 @@ Another difference is that we use Docker instead of containerd. There are a few 
 
 > The results of this tutorial should not be viewed as production ready, and may receive limited support from the community, but don't let that stop you from learning!
 
+> Notice: maybe due to resource constraints, vagrant sometimes fail to provision the VMs or run the provision shell scripts.  run vagrant up multiple times, or vagrant provision [vm-name] to setup the env.
+
 ## Target Audience
 
 The target audience for this tutorial is someone planning to support a production Kubernetes cluster and wants to understand how everything fits together.
